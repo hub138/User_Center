@@ -1,7 +1,52 @@
-## User_Center_frontend
-用户中心的管理系统，有注册、登录等功能，使用Mysql5.7的数据库。管理员可以基于此平台对用户进行管理，设置权限和添加或删除用户  
+# 用户中心前端
 
-前端使用React
+## Environment Prepare
 
+Install `node_modules`:
 
+```bash
+npm install
+```
+
+or
+
+```bash
+yarn
+```
+
+## Provided Scripts
+
+provides some useful script to help you quick start and build with web project, code style check and test.
+
+Scripts provided in `package.json`. It's safe to modify or add additional script:
+
+### Start project
+
+```bash
+npm start
+```
+
+### Build project
+
+```bash
+npm run build
+```
+
+### Check code style
+
+```bash
+npm run lint
+```
+
+You can also use script to auto fix some lint error:
+
+```bash
+npm run lint:fix
+```
+
+### Test code
+
+```bash
+npm test
+```
 
